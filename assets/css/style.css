@@ -353,7 +353,6 @@ blockquote {
     align-items: flex-start;
     justify-content: flex-start;
 }
-
 .images-wrapper {
     margin-top: 0.5rem;
     display: grid;
@@ -361,13 +360,11 @@ blockquote {
     grid-template-columns: repeat(2,minmax(0,1fr));
     gap: 0.5rem;
 }
-
 @media (min-width: 640px) {
     .images-wrapper {
         grid-template-columns:repeat(3,minmax(0,1fr));
     }
 }
-
 .resimg {
     width: 100%;
     overflow: hidden;
@@ -380,7 +377,7 @@ blockquote {
     height: 202px;
 }
 
-.resimg img {
+.timeline img, .resimg img {
     display: block;
     vertical-align: middle;
     max-width: 100%;
@@ -391,6 +388,14 @@ blockquote {
     cursor: pointer;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.tag-span{
+    border-radius: 0.2rem;
+    background-color: #d8def5;
+    font-size: 12px;
+    padding: 2px 4px;
+    color: #5783f7;
 }
 
 .tag-span:hover {

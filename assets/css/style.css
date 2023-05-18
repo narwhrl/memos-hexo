@@ -205,7 +205,7 @@ blockquote {
 .memos__content:before {
     content: '';
     position: absolute;
-    background: url('https://avatars.githubusercontent.com/u/78220282?v=4') no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/narwhrl/memos-hexo@master/assets/img/avatar.webp') no-repeat;
     background-size: contain;
     border-radius: 25px;
     height: 25px;

@@ -210,8 +210,8 @@ blockquote {
     border-radius: 25px;
     height: 25px;
     width: 25px;
-    left: 15px;
-    top: 14px;
+    left: 24px;
+    top: 21px;
     z-index: 2;
 }
 
@@ -219,7 +219,7 @@ blockquote {
     position: relative;
     background: var(--color-text-bg);
     outline: 0px solid #ccc;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 0.5rem;
     font-size: 1rem;
 }
@@ -354,15 +354,16 @@ blockquote {
     justify-content: flex-start;
 }
 .images-wrapper {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2,minmax(0,1fr));
-    gap: 0.5rem;
+    gap: 1rem;
 }
 @media (min-width: 640px) {
     .images-wrapper {
         grid-template-columns:repeat(3,minmax(0,1fr));
+        gap: 1.5rem;
     }
 }
 .resimg {
@@ -374,7 +375,7 @@ blockquote {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 202px;
+    height: auto;
 }
 
 .timeline img, .resimg img {

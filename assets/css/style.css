@@ -391,17 +391,19 @@ blockquote {
     object-fit: cover;
 }
 
+
 .tag-span{
     border-radius: 0.2rem;
     background-color: #d8def5;
-    font-size: 12px;
+    font-size: 13px;
     margin: 2px;
     padding: 2px 4px;
     color: #5783f7;
+    vertical-align: middle;
 }
 
-.tag-span:hover {
-    color: var(--color-tag-hover);
+.tag-span a{
+    font-weight: 400 !important;
 }
 
 .load-btn {

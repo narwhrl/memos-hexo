@@ -557,6 +557,10 @@ blockquote {
         display: none;
     }
 
+    .memos__text {
+        padding: 1rem;
+    }
+    
     .memos__userinfo {
         margin-left: 30px;
         

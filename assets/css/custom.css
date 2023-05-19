@@ -1,0 +1,7 @@
+blockquote:before {
+  display:none !important;
+}
+
+blockquote:after {
+  display:none !important;
+}
